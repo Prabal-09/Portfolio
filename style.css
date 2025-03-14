@@ -1,0 +1,96 @@
+body{
+    background-image: url('background-image.jpg');
+    /* background-color:#03071E; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Portfolio{
+    font-family: 'Impact';
+    color:#6a040f;
+    font-size: 50px;
+    text-align: center;
+    /* text-transform:uppercase; */
+}
+
+/* navigation bar */
+a{
+    color:#FFBA08;
+    font-size:12px;
+    background-color: #03071E;
+    padding:8px;
+    border-radius:8px;
+    text-decoration:none;
+    
+}
+nav{
+    text-align:center;
+    font-family: gadugi;   
+}
+/* a:active{
+    font-size: 12px;
+    color: #03071E;
+    background-color: #FFBA08; */
+/* } */
+a:visited{
+    color:#FFBA08;
+}
+a:hover{
+    font-size: 15px;
+    padding: 4px;
+    color: #03071E;
+    background-color: #FFBA08;
+}
+
+.image{
+    float:right;
+}
+img{
+    /* width:auto; */
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+
+}
+
+#name{
+    font-size:50px;
+    font-family:Bahnschrift SemiBold;
+    color:#F48C06;
+    margin-left:200px;
+    text-decoration: wavy;
+
+}
+
+.section{
+    color:#E85D04;
+    font-size:40px;
+    font-family: Cambria Math;
+    margin-left: 40px;
+}
+
+hr{
+    height:2px;
+    border: 1px solid #9D0208;
+    border-radius: 8px;
+    width:40%;
+    align-items: center;
+}
+
+.education-qualification{
+    font-size:35px;
+    color:#FAA307;
+    margin-left:60px;
+}
+li{
+    color: #EAAC8B;
+    margin-left:60px;
+}
+
+footer{
+    background-color:white;
+    text-align:center ;
+    height: 80px;
+}
