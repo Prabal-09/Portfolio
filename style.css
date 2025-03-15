@@ -89,6 +89,27 @@ li{
     margin-left:60px;
 }
 
+table{
+    margin-left:60px;
+    color:#F48C06;
+    font-size:20px;
+    font-family: Cambria Math;
+    border:3px solid #9D0208;
+    border-radius: 30px;
+}
+th{
+    border-bottom:3px solid #9D0208;
+    /* border-radius: 30px; */
+    padding: 10px;
+}
+td{
+    padding: 10px;
+    border-right: 3px solid #9D0208;
+    color:#EAAC8B;
+}
+.last{
+    border-right:none;
+}
 footer{
     background-color:white;
     text-align:center ;
